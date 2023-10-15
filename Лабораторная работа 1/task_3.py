@@ -1,11 +1,9 @@
-# TODO Найдите количество книг, которое можно разместить на дискете
+list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "Коля"]
 
-value =1.44 * 1024 * 1024 #bytes
-pgs = 100
-rows = 50
-simbols = 25
-val = 4 #bytes
-value_for_one_book = val * simbols * rows * pgs
-books_num = int(value // value_for_one_book)
+count = len(list_players)
+first_team = list_players[0:3:]
+second_team = list_players[3:count:]
 
-print("Количество книг, помещающихся на дискету:", books_num)
+print(first_team)
+print(second_team)
+# TODO Разделите участников на две команды
