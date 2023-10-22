@@ -11,4 +11,4 @@ for month in range(months):
     money_capital = money_capital - (salary - spend)  # Считаем подушку как задолжность
     spend *= (1 + increase)  # которая образовалась бы за 10 месяцев
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital, 2))
